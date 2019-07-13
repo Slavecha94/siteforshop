@@ -1,0 +1,21 @@
+<html>
+
+<head>
+<title> test </title>
+</head>
+<body>
+<table id="node" border="1">
+      <tr>
+            <td><button id="addRow">add row</button></td>
+      </tr>
+</table>
+
+<script>
+document.getElementById("addRow").onclick = function() {
+    var row = document.createElement("tr");
+    row.innerHTML = "<td>test</td><td>test</td><td>test</td><td>test</td><td>test</td>";
+    document.getElementById("node").appendChild(row);
+}
+</script>
+</body>
+</html>

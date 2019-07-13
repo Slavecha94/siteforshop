@@ -4,7 +4,7 @@
 		<link rel="stylesheet" type="text/css" href="styles/style.css" />
 <html>
 	<head>
-		<title>Index</title>		
+		<title>Наш сайт: Главная</title>		
 		<link rel="stylesheet" type="text/css" href="styles/style.css" />		
 	</head>
 	
